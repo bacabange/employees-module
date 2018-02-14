@@ -1,6 +1,7 @@
 {
     "name": "bacabange/employees-module",
     "description": "Module employees for corporation app",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Stiven Castillo",
