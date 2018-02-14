@@ -1,0 +1,25 @@
+{
+    "name": "bacabange/employees-module",
+    "description": "Module employees for corporation app",
+    "authors": [
+        {
+            "name": "Stiven Castillo",
+            "email": "stivencastillo.90@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Employees\\Providers\\EmployeesServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Employees\\": ""
+        }
+    }
+}
